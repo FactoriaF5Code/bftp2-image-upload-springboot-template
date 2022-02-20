@@ -71,13 +71,13 @@ class IntegrationTest {
                 .andExpect(jsonPath("$[*]", hasSize(3)))
                 .andExpect(jsonPath("$[0].id").exists())
                 .andExpect(jsonPath("$[0].name", equalTo("image1.png")))
-                .andExpect(jsonPath("$[0].sizeInMB", equalTo(15)))
+                .andExpect(jsonPath("$[0].sizeInBytes", equalTo(15)))
                 .andExpect(jsonPath("$[1].id").exists())
                 .andExpect(jsonPath("$[1].name", equalTo("image2.png")))
-                .andExpect(jsonPath("$[1].sizeInMB", equalTo(15)))
+                .andExpect(jsonPath("$[1].sizeInBytes", equalTo(15)))
                 .andExpect(jsonPath("$[2].id").exists())
                 .andExpect(jsonPath("$[2].name", equalTo("image3.png")))
-                .andExpect(jsonPath("$[2].sizeInMB", equalTo(15)));
+                .andExpect(jsonPath("$[2].sizeInBytes", equalTo(15)));
     }
 
     @Test
