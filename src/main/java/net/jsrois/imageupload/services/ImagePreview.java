@@ -1,4 +1,4 @@
-package net.jsrois.imageupload;
+package net.jsrois.imageupload.services;
 
 public class ImagePreview {
     private final String name;

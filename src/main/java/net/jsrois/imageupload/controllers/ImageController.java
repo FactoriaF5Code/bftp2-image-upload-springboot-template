@@ -1,5 +1,8 @@
-package net.jsrois.imageupload;
+package net.jsrois.imageupload.controllers;
 
+import net.jsrois.imageupload.repositories.Image;
+import net.jsrois.imageupload.services.ImagePreview;
+import net.jsrois.imageupload.services.ImageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;

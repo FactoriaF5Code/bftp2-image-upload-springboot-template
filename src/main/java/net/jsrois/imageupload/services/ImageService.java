@@ -1,5 +1,7 @@
-package net.jsrois.imageupload;
+package net.jsrois.imageupload.services;
 
+import net.jsrois.imageupload.repositories.Image;
+import net.jsrois.imageupload.repositories.ImageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

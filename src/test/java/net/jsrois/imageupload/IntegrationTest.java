@@ -1,5 +1,7 @@
 package net.jsrois.imageupload;
 
+import net.jsrois.imageupload.repositories.Image;
+import net.jsrois.imageupload.repositories.ImageRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package net.jsrois.imageupload;
+package net.jsrois.imageupload.repositories;
 
 
 import org.hibernate.annotations.GenericGenerator;
